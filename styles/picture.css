@@ -1,0 +1,14 @@
+.city-3,
+.city-4 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.city-all {
+  width: 100%;
+}
