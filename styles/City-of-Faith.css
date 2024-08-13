@@ -180,6 +180,11 @@ footer {
   .olawale {
     font-size: 15px;
   }
+
+   footer,
+  .service {
+    font-size: 12.5px;
+  }
 }
 
 @media (max-width: 800px) {
