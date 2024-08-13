@@ -12,3 +12,21 @@
 .city-all {
   width: 100%;
 }
+
+
+.social {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-instagram {
+  display: block;
+  font-size: 40px;
+}
+.insta {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
