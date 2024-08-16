@@ -158,10 +158,12 @@ li{
 
 .address{
   font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .media{
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 /* <600px, 601px, 768px, 992px, 1200px`  */
