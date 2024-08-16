@@ -130,6 +130,10 @@ h2 {
   align-items: center;
 }
 
+.our{
+  font-weight: bold;
+}
+
 footer {
   background-color: rgb(54, 49, 49);
   color: white;
@@ -146,6 +150,18 @@ footer {
 .link {
   color: white;
   text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.address{
+  font-weight: bold;
+}
+
+.media{
+  font-weight: bold;
 }
 
 /* <600px, 601px, 768px, 992px, 1200px`  */
