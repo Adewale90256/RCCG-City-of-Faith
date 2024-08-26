@@ -51,8 +51,6 @@
 
 .sect-1 {
   display: grid;
-  margin-top: 4rem;
-  margin-bottom: 5px;
   justify-content: center;
   background-image: url("../images/rock-1.avif");
   background-size: cover;
@@ -61,7 +59,7 @@
   background-position: center;
   /*background-color: gold;*/
 
-  height: 50vh;
+  height: 350px;
 }
 
 .about {
@@ -80,7 +78,6 @@
 
 .div-3 {
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .div-4 {
@@ -135,11 +132,15 @@ h2 {
 }
 
 footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(54, 49, 49);
   color: white;
-  height: 150px;
+  height: 270px;
   padding-top: 20px;
   padding-bottom: 20px;
+   padding-left: 20px;
   width: 100%;
 }
 
@@ -201,8 +202,30 @@ li{
 
    footer,
   .service {
-    font-size: 12.5px;
+   display: grid;
+    grid-template-columns: 1fr;
+    font-size: 15.5px;
+    gap: 10px;
   }
+ .service,
+  .service-all,
+  .our,
+  .social {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .our {
+    font-size: 20px;
+  }
+  .head {
+    height: 80px;
+  }
+
+  .sect-1 {
+    background-position: bottom;
+  }
+  
 }
 
 @media (max-width: 800px) {
